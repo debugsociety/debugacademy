@@ -1,0 +1,12 @@
+name = opigno_st
+description = Opigno_st default sub-theme. Fully responsive, HTML5 theme.
+core = 7.x
+base theme = platon
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/hacks.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/local-style.css
+
+
