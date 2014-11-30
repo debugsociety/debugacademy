@@ -28,7 +28,15 @@
 
 /*Area B*/
 #block-panels-mini-b{top:30px;}
-/*div.pane-content{width:100%;}*/
+
+/*Area C*/
+#block-panels-mini-c{background:#2A80B9;padding:0;background-image: url("/sites/all/themes/debuga_theme1/img/c_bg.jpg");background-repeat: no-repeat; color:white;height:435px;}
+#mini-panel-c > div.panel-panel.panel-col-top{height:90px;padding-top:35px;}
+#mini-panel-c > div:nth-child(2) > div > div > div > div > h1,h3{margin:0;}
+#mini-panel-c > div:nth-child(2) > div.panel-panel.panel-col-first{width: 41.67%; padding:15px 0 25px 7.8%}
+#mini-panel-c > div:nth-child(2) > div.panel-panel.panel-col-last{width: 35.2%; padding: 15px 0 0 0; }
+#mini-panel-c > div:nth-child(4) > div.panel-panel.panel-col-first{width: 41.67%; padding:0 0 0 7.8%}
+#mini-panel-c > div:nth-child(4) > div.panel-panel.panel-col-last{width: 35.2%; padding: 0}
 
 /*Structure:
 -#site-footer
