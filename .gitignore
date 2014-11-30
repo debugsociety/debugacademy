@@ -11,5 +11,4 @@ sites/default
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-sites/all/themes/theme1/Thumbs.db
-profiles/opigno_lms/img/Thumbs.db
+*/Thumbs.db

@@ -1,7 +1,7 @@
 #title-wrapper{display:none;}
 #first-sidebar{display:none;}
-#second-sidebar{padding:0;background-image: url("/sites/all/themes/debuga_theme1/img/content_bg.jpg");} 
-
+#second-sidebar{padding:0;background-image: url("/sites/all/themes/debuga_theme1/img/A_bg.jpg");background-repeat: no-repeat;} 
+/*Area A*/
 /*first row*/
 #mini-panel-a_1{width:100%;height:200px;padding-left:120px; margin-top:35px;}
 #mini-panel-a_1 > div> div{margin:5px;}
@@ -25,6 +25,10 @@
 #mini-panel-a_3 > div.panel-panel.panel-col-first{width:19.167%;}
 #mini-panel-a_3 > div.panel-panel.panel-col{width:19.167%}
 #mini-panel-a_3 > div.panel-panel.panel-col-last{width:40%}
+
+/*Area B*/
+#block-panels-mini-b{top:30px;}
+/*div.pane-content{width:100%;}*/
 
 /*Structure:
 -#site-footer
