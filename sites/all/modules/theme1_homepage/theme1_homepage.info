@@ -1,0 +1,6 @@
+name = Theme1_homepage
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = theme1_homepage
+features[features_api][] = api:2
