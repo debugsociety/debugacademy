@@ -1,5 +1,5 @@
-name = HomePage1
-description = Home Page of Theme #1
+name = theme1_footer
+description = Footer of Theme #1
 core = 7.x
 package = Features
 version = 7.x-1.0
