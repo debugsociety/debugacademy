@@ -1,3 +1,8 @@
+#block-system-main-menu > div.content > ul > li:nth-child(2)
+#block-block1 {
+background-color: black;
+}
+
 #site-footer{background:#1e1e1e; height:400px; padding:0;width:100%;}
 
 /*#site-footer > div > div{width:100%;}*/
@@ -18,3 +23,4 @@
 #block-homebox-custom{top:8px; left:13.3%;} 
 #block-system-main-menu{top:8px; left:37.5%;}
 #block-block-1{top:8px;left:64.17%;}
+
