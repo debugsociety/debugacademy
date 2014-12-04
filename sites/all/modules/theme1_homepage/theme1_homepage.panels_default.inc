@@ -115,7 +115,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-3b408e12-6306-408b-9269-0e4295d56efb'] = $pane;
     $display->panels['right'][0] = 'new-3b408e12-6306-408b-9269-0e4295d56efb';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-96fa38dd-a617-4bc7-b697-efdaa0be2c82';
   $mini->display = $display;
   $export['a_1'] = $mini;
 
@@ -221,7 +221,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-2f614ffa-c8b0-45b1-a9b7-4ebe8839583c'] = $pane;
     $display->panels['right'][0] = 'new-2f614ffa-c8b0-45b1-a9b7-4ebe8839583c';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-858f31bb-cdff-4447-94ff-c66e5a707884';
   $mini->display = $display;
   $export['a_2'] = $mini;
 
@@ -327,7 +327,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-d66f063b-7563-4344-8bb6-e31c8aa4269a'] = $pane;
     $display->panels['right'][0] = 'new-d66f063b-7563-4344-8bb6-e31c8aa4269a';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-754e7303-8ca9-4135-80df-3378b0a45c37';
   $mini->display = $display;
   $export['a_3'] = $mini;
 
@@ -381,7 +381,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-5bfc757b-c145-4153-911c-ea33449b9ca8'] = $pane;
     $display->panels['middle'][0] = 'new-5bfc757b-c145-4153-911c-ea33449b9ca8';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-5bfc757b-c145-4153-911c-ea33449b9ca8';
   $mini->display = $display;
   $export['b'] = $mini;
 
@@ -543,7 +543,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-a0ffc8f1-98d7-49d3-9c55-96665381cdd9'] = $pane;
     $display->panels['top'][0] = 'new-a0ffc8f1-98d7-49d3-9c55-96665381cdd9';
   $display->hide_title = PANELS_TITLE_NONE;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-a0ffc8f1-98d7-49d3-9c55-96665381cdd9';
   $mini->display = $display;
   $export['c'] = $mini;
 
@@ -680,7 +680,7 @@ function theme1_homepage_default_panels_mini() {
     $display->content['new-a7a8cb13-ee63-4387-91f7-456a0a9b1a9b'] = $pane;
     $display->panels['top'][0] = 'new-a7a8cb13-ee63-4387-91f7-456a0a9b1a9b';
   $display->hide_title = PANELS_TITLE_FIXED;
-  $display->title_pane = '0';
+  $display->title_pane = 'new-80276798-d2d3-4a56-9698-c5b7fff4fdd2';
   $mini->display = $display;
   $export['d'] = $mini;
 
