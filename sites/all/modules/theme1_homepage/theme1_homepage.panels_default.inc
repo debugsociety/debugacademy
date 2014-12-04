@@ -49,7 +49,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="http://debugsociety.com/drupal_7_development"><img alt="" id="a-1-l" src="/sites/debugacademy.local/files/a-1-l.jpg" style="width: 482px; height: 200px;"></a>',
+      'body' => '<p><a href="http://debugsociety.com/drupal_7_development"><img alt="" id="a-1-l" src="/sites/all/themes/debuga_theme1/img/a-1-l.jpg" style="width: 482px; height: 200px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -74,7 +74,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="http://debugsociety.com/new_student"><img alt="" id="a-1-m" src="/sites/debugacademy.local/files/a-1-m.jpg" style="width: 230px; height: 199px;"></a>',
+      'body' => '<p><a href="http://debugsociety.com/new_student"><img alt="" id="a-1-m" src="/sites/all/themes/debuga_theme1/img/a-1-m.jpg" style="width: 230px; height: 199px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -99,7 +99,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="http://debugsociety.com/"><img alt="" id="a-1-r" src="/sites/debugacademy.local/files/a-1-r.jpg" style="width: 230px; height: 199px;"></a>',
+      'body' => '<p><a href="http://debugsociety.com/"><img alt="" id="a-1-r" src="/sites/all/themes/debuga_theme1/img/a-1-r.jpg" style="width: 230px; height: 199px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -155,7 +155,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-2-l.jpg"><img alt="" src="/sites/debugacademy.local/files/a-2-l.jpg" style="width: 230px; height: 200px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-2-l.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-2-l.jpg" style="width: 230px; height: 200px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -180,7 +180,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-2-m.jpg"><img alt="" src="/sites/debugacademy.local/files/a-2-m.jpg" style="width: 480px; height: 199px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-2-m.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-2-m.jpg" style="width: 480px; height: 199px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -205,7 +205,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-2-r.jpg"><img alt="" src="/sites/debugacademy.local/files/a-2-r.jpg" style="width: 231px; height: 200px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-2-r.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-2-r.jpg" style="width: 231px; height: 200px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -261,7 +261,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-3-l.jpg"><img alt="" src="/sites/debugacademy.local/files/a-3-l.jpg" style="width: 230px; height: 200px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-3-l.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-3-l.jpg" style="width: 230px; height: 200px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -286,7 +286,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-3-m.jpg"><img alt="" src="/sites/debugacademy.local/files/a-3-m.jpg" style="width: 229px; height: 199px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-3-m.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-3-m.jpg" style="width: 229px; height: 199px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
@@ -311,7 +311,7 @@ function theme1_homepage_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<a href="/sites/debugacademy.local/files/a-3-r.jpg"><img alt="" src="/sites/debugacademy.local/files/a-3-r.jpg" style="width: 479px; height: 199px;"></a>',
+      'body' => '<p><a href="/sites/debugacademy.local/files/a-3-r.jpg"><img alt="" src="/sites/all/themes/debuga_theme1/img/a-3-r.jpg" style="width: 479px; height: 199px;"></a></p>',
       'format' => 'html',
       'substitute' => TRUE,
     );
