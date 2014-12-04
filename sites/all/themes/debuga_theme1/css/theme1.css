@@ -34,7 +34,7 @@
 /*Area C*/
 #mini-panel-c {width:100%}
 #mini-panel-c >div{width:1200px;}
-#block-panels-mini-c{background:#2A80B9;padding:0;background-image: url("/sites/all/themes/debuga_theme1/img/c_bg.jpg");background-repeat: no-repeat; color:white;height:435px;}
+#content > div > div.panel-display.panel-1col.clearfix > div > div > div.contextual-links-region.panel-pane.pane-panels-mini.pane-c{background:#2A80B9;padding:0;background-image: url("/sites/all/themes/debuga_theme1/img/c_bg.jpg");background-repeat: no-repeat; color:white;height:435px;}
 #mini-panel-c > div.panel-panel.panel-col-top{height:90px;padding-top:35px;}
 #mini-panel-c > div:nth-child(2) > div > div > div > div > h1,h3{margin:0;}
 #mini-panel-c > div:nth-child(2) > div.panel-panel.panel-col-first{width: 500px; padding:15px 0 25px 100px}
@@ -49,7 +49,7 @@
 #mini-panel-d >div{width:1200px;}
 #mini-panel-d > div.center-wrapper > div.panel-panel.panel-col-first {max-width:300px;margin-left:130px}
 #mini-panel-d > div.center-wrapper > div{margin:0 2px 0 2px;}
-#block-panels-mini-d > div.content{background-color:white}
+#content > div > div.panel-display.panel-1col.clearfix > div > div > div.contextual-links-region.panel-pane.pane-panels-mini.pane-d{background-color:white}
 #mini-panel-d > div.panel-panel.panel-col-top > div > div > div > h1{width:1200px;margin:0; padding-top:52px;color:#FF6434}
 #mini-panel-d > div.center-wrapper > div > div > div > div > h1:nth-child(2){color:#FF6434}
 #mini-panel-d > div.center-wrapper > div > div > div > div > p:nth-child(2){color:#CCCCCC}
