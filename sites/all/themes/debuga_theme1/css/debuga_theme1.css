@@ -1,3 +1,8 @@
+
+/* 
+The following code is for the site header and the sidebars for all pages
+*/
+
 #site-header {
 	background-color: #001931;
 	background-image: none;
@@ -92,5 +97,10 @@ hr {
 	margin-top: 5px;
 	width: 100%;
 	}
+/* 
+The following code will be for the "Our Graduates" Page 
+*/
 
-	
+#id-graduates .views-label {
+	display; none;
+}

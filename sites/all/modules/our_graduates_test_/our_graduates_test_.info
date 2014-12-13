@@ -1,0 +1,12 @@
+name = our_graduates_test_
+description = This is a list of user names and pictures for the Our Graduates block
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = our_graduates_test_
+dependencies[] = views
+dependencies[] = views_content
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = graduates
+features_exclude[dependencies][ctools] = ctools

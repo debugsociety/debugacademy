@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the our_graduates_test_ feature.
+ */
+
+include_once 'our_graduates_test_.features.inc';
