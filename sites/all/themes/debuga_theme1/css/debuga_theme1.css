@@ -101,6 +101,17 @@ hr {
 The following code will be for the "Our Graduates" Page 
 */
 
-#id-graduates .views-label {
-	display; none;
+.view-id-graduates .field-content img {
+	border-radius: 100%;
+	
+}
+
+/*
+The code below does not work yet. The intention is to
+get the users and their profile pictures to display
+inline together
+*/
+
+.view-id-graduates .field-content {
+	display: inline;
 }
