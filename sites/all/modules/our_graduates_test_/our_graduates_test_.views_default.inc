@@ -41,6 +41,8 @@ function our_graduates_test__views_default_views() {
   $handler->display->display_options['fields']['picture']['id'] = 'picture';
   $handler->display->display_options['fields']['picture']['table'] = 'users';
   $handler->display->display_options['fields']['picture']['field'] = 'picture';
+  $handler->display->display_options['fields']['picture']['label'] = '';
+  $handler->display->display_options['fields']['picture']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['picture']['image_style'] = 'thumbnail';
   /* Field: User: Name */
   $handler->display->display_options['fields']['name']['id'] = 'name';
@@ -75,7 +77,6 @@ function our_graduates_test__views_default_views() {
     t('‹ '),
     t(' ›'),
     t('last »'),
-    t('Picture'),
     t('Content pane'),
     t('View panes'),
   );
