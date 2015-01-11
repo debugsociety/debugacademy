@@ -1,0 +1,13 @@
+name = Header theme menu links
+description = Added the three menu links for the header theme1 (How we're different, Hire our alumni, Apply Now)
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = header_theme_menu_links
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_links][] = main-menu_apply-now:http://drupal.org
+features[menu_links][] = main-menu_hire-our-alumni:http://drupal.org
+features[menu_links][] = main-menu_how-were-different-:http://debugacademy.local:8083/node/%node
