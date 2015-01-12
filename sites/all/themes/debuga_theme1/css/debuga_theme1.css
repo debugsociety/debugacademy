@@ -106,12 +106,22 @@ The following code will be for the "Our Graduates" Page
 	
 }
 
-/*
-The code below does not work yet. The intention is to
-get the users and their profile pictures to display
-inline together
+/* Also for the "Our Graduate" Page:
+Makes the background for the table-blocks where images/names of the graduates 
+are inside of the color white
 */
-
-.view-id-graduates .field-content {
-	display: inline;
+.view-id-graduates td.col-1.graduates {
+	background-color: white;
+}
+.view-id-graduates td.col-2.graduates {
+	background-color: white;
+}
+.view-id-graduates td.col-3.graduates {
+	background-color: white;
+}
+.view-id-graduates td.col-4.graduates {
+	background-color: white;
+}
+.view-id-graduates td.col-5.graduates {
+	background-color: white;
 }
