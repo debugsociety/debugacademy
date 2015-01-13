@@ -2442,14 +2442,14 @@ function _drupal_bootstrap_database() {
 
     foreach ($GLOBALS['databases']['default'] as &$value) {
       // Extract the current default database prefix.
-      if (isset($value['prefix']['default'])) {
+      if (!isset($value['prefix'])) {
+        $current_prefix = '';
+      }
+      elseif (is_array($value['prefix'])) {
         $current_prefix = $value['prefix']['default'];
       }
-      elseif (isset($value['prefix'])) {
-        $current_prefix = $value['prefix'];
-      }
       else {
-        $current_prefix = '';
+        $current_prefix = $value['prefix'];
       }
 
       // Remove the current database prefix and replace it by our own.
