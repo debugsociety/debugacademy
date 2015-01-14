@@ -1,0 +1,25 @@
+diff --git a/includes/bootstrap.inc b/includes/bootstrap.inc
+index 6dc4217..f7a4087 100644
+--- a/includes/bootstrap.inc
++++ b/includes/bootstrap.inc
+@@ -2435,15 +2435,15 @@ function _drupal_bootstrap_database() {
+ 
+     foreach ($GLOBALS['databases']['default'] as &$value) {
+       // Extract the current default database prefix.
+-      if (!isset($value['prefix'])) {
+-        $current_prefix = '';
+-      }
+-      elseif (is_array($value['prefix'])) {
++      if (isset($value['prefix']['default'])) {
+         $current_prefix = $value['prefix']['default'];
+       }
+-      else {
++      elseif (isset($value['prefix'])) {
+         $current_prefix = $value['prefix'];
+       }
++      else {
++        $current_prefix = '';
++      }
+ 
+       // Remove the current database prefix and replace it by our own.
+       $value['prefix'] = array(

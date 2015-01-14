@@ -4,7 +4,7 @@ core = 7.x
 base theme = platon 
 
 stylesheets[all][] = css/debuga_theme1.css
-stylesheets[all][] = css/theme1.css
+
 
 regions[header] = Header
 regions[help] = Help
