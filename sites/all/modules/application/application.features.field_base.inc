@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * application_form.features.field_base.inc
+ * application.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function application_form_field_default_field_bases() {
+function application_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_additional_time'
