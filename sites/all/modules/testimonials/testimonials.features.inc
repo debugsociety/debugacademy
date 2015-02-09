@@ -18,7 +18,7 @@ function testimonials_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function testimonials_node_info() {
   $items = array(
-    'testimonial' => array(
+    'debug_a_testimonial' => array(
       'name' => t('Testimonial'),
       'base' => 'node_content',
       'description' => t('Content type for testimonials. Stores a person\'s name, a picture, a long text field, and an entity reference field to optionally point to a user account.'),
