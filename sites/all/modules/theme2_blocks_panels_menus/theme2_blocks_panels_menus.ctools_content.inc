@@ -19,8 +19,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'What happens when the class is over?',
-    'body' => '<h2 class="tab-header">What happens when the class is over?</h2><p>This course will take approximately 14 weeks. After the course, we will not teach another class for 3 weeks -- your teacher\'s job in that time is to help you get paid work, and be available for questions to make your career transition smoother. This is appealing to employers - they will hire you, and you have your network as a resource for advanced questions.</p><a href="http://www.w3schools.com/" id="class-over" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
+    'title' => variable_get('debugacademy_tab_two_pane_title'),
+    'body' => '<h2 class="tab-header">'.variable_get('debugacademy_tab_two_pane_title').
+			  '</h2><p>'.variable_get('debugacademy_tab_two_pane_body').
+			  '</p><a href="http://www.w3schools.com/" id="class-over" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -52,7 +54,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'EMPLOYERS',
-    'body' => '<p class="left-padding right-padding">Only teach highly in-demand technologies.<br>Re-assess curriculum regularly.</p><p class="left-padding right-padding">Keep class sizes very small: 5-10 students per class.</p><p class="left-padding right-padding">Curriculum is customized mid-way per-student.</p><a href="www.cnn.com" id="hire-class">Hire our Class<img src="/sites/all/themes/debuga_theme2/images/hire-class-button.png"></a>',
+    'body' => '<p class="left-padding right-padding">'.variable_get('debugacademy_employer_pane_line_one').
+	'</p><p class="left-padding right-padding">'.variable_get('debugacademy_employer_pane_line_two').
+	'</p><p class="left-padding right-padding">'.variable_get('debugacademy_employer_pane_line_three').
+	'</p><a href="www.cnn.com" id="hire-class">Hire our Class<img src="/sites/all/themes/debuga_theme2/images/hire-class-button.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -83,8 +88,8 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'Hire our next class to work on YOUR project',
-    'body' => '<p>Client projects are led by the teacher, a full-time senior developer.</p>',
+    'title' => variable_get('debugacademy_hire_pop_title',''),
+    'body' => '<p>'.variable_get('debugacademy_hire_pop_body','').'</p>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -100,7 +105,13 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'HOW WE\'RE DIFFERENT',
-    'body' => '<hr class="hr-light" id="diff-hr"><p class="left">Debug Society is the best in the world wooot wooot forever and ever. Debug Society is the best in the world wooot wooot forever and ever. Debug Society is the best in the world wooot wooot forever and ever.</p><ul><li>We\'re the best ever seriously we are we are we are we are</li><li>We\'re the best all the time</li><li>We\'re the best yesterday we are</li><li>We\'re the best today</li><li>We\'re the best tomorrow</li><li>We\'re the best now</li></ul>',
+    'body' => '<hr class="hr-light" id="diff-hr"><p class="left">'.variable_get('debugacademy_different_intro').
+			  '</p><ul><li>'.variable_get('debugacademy_different_bullet_one').
+			  '</li><li>'.variable_get('debugacademy_different_bullet_two').
+			  '</li><li>'.variable_get('debugacademy_different_bullet_three').
+			  '</li><li>'.variable_get('debugacademy_different_bullet_four').
+			  '</li><li>'.variable_get('debugacademy_different_bullet_five').
+			  '</li><li>'.variable_get('debugacademy_different_bullet_six').'</li></ul>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -115,7 +126,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'JOIN THE MOVEMENT',
+    'title' => variable_get('debugacademy_banner_one_headline'),
     'body' => '<hr><a href="/apply" id="apply-today">APPLY TODAY<img src="/sites/all/themes/debuga_theme2/images/apply-today-button.png"></a>',
     'format' => 'html',
     'substitute' => 1,
@@ -131,8 +142,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'Where is the next class located?',
-    'body' => '<h2 class="tab-header">Where is the next class located?</h2><p>The class will be held in Fairfax, VA - near Washington, D.C. Graduates will be well placed to score a great job with the active D.C. Drupal community.</p><a href="http://www.w3schools.com/" id="next-location" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
+    'title' => variable_get('debugacademy_tab_three_pane_title'),
+    'body' => '<h2 class="tab-header">'.variable_get('debugacademy_tab_three_pane_title').
+			  '</h2><p>'.variable_get('debugacademy_tab_three_pane_body').
+			  '</p><a href="http://www.w3schools.com/" id="next-location" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -147,8 +160,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'Payment Information',
-    'body' => '<h2 class="tab-header">Payment Information</h2><p>Here is some payment information</p><a href="http://www.w3schools.com/" id="payment-info" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
+    'title' => variable_get('debugacademy_tab_four_pane_title'),
+    'body' => '<h2 class="tab-header">'.variable_get('debugacademy_tab_four_pane_title').
+			  '</h2><p>'.variable_get('debugacademy_tab_four_pane_body').
+			  '</p><a href="http://www.w3schools.com/" id="payment-info" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -163,7 +178,7 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'PREVIOUS GRADUATE STATISTICS',
+    'title' => variable_get('debugacademy_banner_two_headline'),
     'body' => '<hr><a href="https://debugs.slack.com" id="see-stats-link" target="_blank"><img src="/sites/all/themes/debuga_theme2/images/stats-button-bg.png"></a>',
     'format' => 'html',
     'substitute' => 1,
@@ -180,7 +195,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->settings = array(
     'admin_title' => '',
     'title' => 'STUDENTS',
-    'body' => '<p class="left-padding right-padding">Only teach highly in-demand technologies.<br>Re-assess curriculum regularly.</p><p class="left-padding right-padding">Keep class sizes very small: 5-10 students per class.</p><p class="left-padding right-padding">Curriculum is customized mid-way per-student.</p><a href="/apply" id="apply-now">Apply Now<img src="/sites/all/themes/debuga_theme2/images/apply-now-button.png"></a>',
+    'body' => '<p class="left-padding right-padding">'.variable_get('debugacademy_student_pane_line_one').
+			  '</p><p class="left-padding right-padding">'.variable_get('debugacademy_student_pane_line_two').
+			  '</p><p class="left-padding right-padding">'.variable_get('debugacademy_student_pane_line_three').
+			  '</p><a href="/apply" id="apply-now">Apply Now<img src="/sites/all/themes/debuga_theme2/images/apply-now-button.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );
@@ -195,8 +213,10 @@ function theme2_blocks_panels_menus_default_ctools_custom_content() {
   $content->category = '';
   $content->settings = array(
     'admin_title' => '',
-    'title' => 'What are we teaching next?',
-    'body' => '<h2 class="tab-header">What are we teaching next?</h2><p>This semester we will be teaching Drupal 7 development. Students will learn how to be a valuable member of an enterprise-level Drupal development team. Your teacher currently works on some of the largest Drupal websites in the world, and you will develop the same way his team does. You will be a great asset to any Drupal development team!</p><a href="http://www.w3schools.com/" id="teaching-next" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
+    'title' => variable_get('debugacademy_tab_one_pane_title'),
+    'body' => '<h2 class="tab-header">'.variable_get('debugacademy_tab_one_pane_title').
+			  '</h2><p>'.variable_get('debugacademy_tab_one_pane_body').
+			  '</p><a href="http://www.w3schools.com/" id="teaching-next" target="_blank">SEE MORE DETAIL<img src="/sites/all/themes/debuga_theme2/images/more-detail.png"></a>',
     'format' => 'html',
     'substitute' => 1,
   );

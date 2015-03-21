@@ -236,7 +236,7 @@ function theme2_blocks_panels_menus_default_panels_mini() {
     $pane->configuration = array(
       'admin_title' => '',
       'title' => '',
-      'body' => '<h1>Graduate with a career,<br><strong>Not Loans.</strong></h1>',
+      'body' => variable_get('debugacademy_main_text','<h1>Graduate with a career,<br /><strong>Not loans.</strong></h1>'),
       'format' => 'html',
       'substitute' => TRUE,
     );
