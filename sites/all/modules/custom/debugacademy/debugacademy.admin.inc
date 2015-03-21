@@ -90,21 +90,21 @@ function debugacademy_admin_settings() {
     '#type' => 'textfield',
     '#title' => t('Employer pane line one'),
     '#description' => t('First line in employer pane'),
-    '#default_value' => variable_get('debugacademy_employer_pane_line_one', 'Only teach highly in-demand technologies.<br>Re-assess curriculum regularly.'),
+    '#default_value' => variable_get('debugacademy_employer_pane_line_one', 'Have your project completed by our students.<br/>On time, within budget.'),
     '#required' => TRUE,
   );
   $form['main_section']['debugacademy_employer_pane']['debugacademy_employer_pane_line_two'] = array(
     '#type' => 'textfield',
     '#title' => t('Employer pane line two'),
     '#description' => t('Second line in employer pane'),
-    '#default_value' => variable_get('debugacademy_employer_pane_line_two', 'Keep class sizes very small: 5-10 employers per class.'),
+    '#default_value' => variable_get('debugacademy_employer_pane_line_two', 'Gauge student employment readiness.'),
     '#required' => TRUE,
   );
   $form['main_section']['debugacademy_employer_pane']['debugacademy_employer_pane_line_three'] = array(
     '#type' => 'textfield',
     '#title' => t('Employer pane line three'),
     '#description' => t('Third line in employer pane'),
-    '#default_value' => variable_get('debugacademy_employer_pane_line_three', 'Curriculum is customized mid-way per-employer.'),
+    '#default_value' => variable_get('debugacademy_employer_pane_line_three', 'Employer point three.'),
     '#required' => TRUE,
   );
   
@@ -134,10 +134,7 @@ function debugacademy_admin_settings() {
     '#type' => 'textarea',
     '#title' => t('First tab body'),
     '#description' => t('Body of first tab in the four-tab section'),
-    '#default_value' => variable_get('debugacademy_tab_one_pane_body', 'This semester we will be teaching Drupal 7 development. 
-						Students will learn how to be a valuable member of an enterprise-level Drupal development team. Your teacher currently works 
-						on some of the largest Drupal websites in the world, and you will develop the same way his team does. You will be a great asset 
-						to any Drupal development team!'),
+    '#default_value' => variable_get('debugacademy_tab_one_pane_body', 'This semester we will be teaching Drupal 7 development. Students will learn how to be a valuable member of an enterprise-level Drupal development team. Your teacher currently works on some of the largest Drupal websites in the world, and you will develop the same way his team does. You will be a great asset to any Drupal development team!'),
     '#required' => TRUE,
   );
 
@@ -159,10 +156,7 @@ function debugacademy_admin_settings() {
     '#type' => 'textarea',
     '#title' => t('Second tab body'),
     '#description' => t('Body of second tab in the four-tab section'),
-    '#default_value' => variable_get('debugacademy_tab_two_pane_body', 'This course will take approximately 14 weeks. After the 
-						course, we will not teach another class for 3 weeks - your teacher\'s job in that time is to help you get 
-						paid work, and be available for questions to make your career transition smoother. This is appealing to 
-						employers - they will hire you, and you have your network as a resource for advanced questions.'),
+    '#default_value' => variable_get('debugacademy_tab_two_pane_body', 'This course will take approximately 14 weeks. After the course, we will not teach another class for 3 weeks - your teacher\'s job in that time is to help you get paid work, and be available for questions to make your career transition smoother. This is appealing to employers - they will hire you, and you have your network as a resource for advanced questions.'),
     '#required' => TRUE,
   );
  
@@ -184,8 +178,7 @@ function debugacademy_admin_settings() {
     '#type' => 'textarea',
     '#title' => t('Third tab body'),
     '#description' => t('Body of third tab in the four-tab section'),
-    '#default_value' => variable_get('debugacademy_tab_three_pane_body', 'The class will be held in Fairfax, VA - 
-						near Washington, D.C. Graduates will be well placed to score a great job with the active D.C. Drupal community.'),
+    '#default_value' => variable_get('debugacademy_tab_three_pane_body', 'The class will be held in Fairfax, VA - near Washington, D.C. Graduates will be well placed to score a great job with the active D.C. Drupal community.'),
     '#required' => TRUE,
   );
   
@@ -244,9 +237,7 @@ function debugacademy_admin_settings() {
     '#type' => 'textarea',
     '#title' => t('How Debug Academy is Different'),
     '#description' => t('Small paragraph on what separates Debug Academy from similar programs.'),
-    '#default_value' => variable_get('debugacademy_different_intro', 'Our personalized approach to teaching allows us to cater to individual student
-						strengths and interests. Students are part of a real development team working on real projects. They leave the class with
-						a working portfolio and applied experience on a software project lead by a senior developer.'),
+    '#default_value' => variable_get('debugacademy_different_intro', 'Our personalized approach to teaching allows us to cater to individual student strengths and interests. Students are part of a real development team working on real projects. They leave the class with a working portfolio and applied experience on a software project lead by a senior developer.'),
     '#required' => TRUE,
   );
   $form['different']['debugacademy_different_bullets'] = array(
