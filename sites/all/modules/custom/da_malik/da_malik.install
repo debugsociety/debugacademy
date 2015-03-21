@@ -19,6 +19,24 @@ function da_malik_enable() {
     module_enable($modules, TRUE);
 	
 }
+
+/**
+ * Implements hook_update_N()
+ * 
+ * Enable debugacademy module and 
+ * revert Theme 2 Blocks Panels Menus feature
+ */
+
+function da_malik_update_7008(&$sandbox) {
+  /*enable new debugacademy module*/
+  $modules = array('debugacademy');
+  module_enable($modules, TRUE);
+  
+  /*revert theme 2 blocks panels menus feature*/
+  $module = 'theme2_blocks_panels_menus';
+  features_revert_module($module);
+}
+
 /**
 * Implements hook_update_N
 */
