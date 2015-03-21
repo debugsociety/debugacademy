@@ -24,7 +24,7 @@ function debugacademy_admin_settings() {
     '#type' => 'textfield',
     '#title' => t('Main Header'),
     '#description' => t('Main text to grab attention.'),
-    '#default_value' => variable_get('debugacademy_main_text', ''),
+    '#default_value' => variable_get('debugacademy_main_text', '<h1>Graduate with a career,<br /><strong>Not loans.</strong></h1>'),
     '#required' => TRUE,
   );
   
