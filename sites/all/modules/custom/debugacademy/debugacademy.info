@@ -1,0 +1,3 @@
+name = Debug Academy Module
+description = "For custom debug academy code and updates"
+core = 7.x

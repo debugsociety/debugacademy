@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ */
+ 
+function debugacademy_menu() {
+	$items = array();
+	
+	$items['admin/config/system/homepage'] = array(
+		'title' => 'Homepage content',
+		'description' => 'Page that offers a single location to modify homepage content',
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('debugacademy_admin_settings'),
+		'access arguments' => array('administer homepage settings'),
+		'file' => 'debugacademy.admin.inc',
+	);
+	
+	return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+
+function debugacademy_permission() {
+  return array(
+    'administer homepage settings' => array(
+      'title' => t('Administer Homepage Content'),
+      'description' => t('Perform content updates on Debug Academy Theme 2 homepage'),
+    ),
+  );
+}
