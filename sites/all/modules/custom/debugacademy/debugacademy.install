@@ -1,0 +1,21 @@
+<?php
+/**
+ * Implements hook_enable()
+ */
+
+function debugacademy_enable() {
+
+	/*setting the homepage*/
+ 	$homepage = 'home2';
+	variable_set('site_frontpage', $homepage);
+	
+	/*enabling theme 2 and setting it as the default*/
+	$debug_academy_theme_two = 'debuga_theme2';
+	theme_enable(array($debug_academy_theme_two));
+	variable_set('theme_default', $debug_academy_theme_two);
+	
+	/*enabling theme2 blocks panels, nagat, social media links, and simplenews modules*/
+	$modules = array('theme2_blocks_panels_menus','da_nagatahmed', 'social_media_links','simplenews');
+    module_enable($modules, TRUE);
+	
+}
