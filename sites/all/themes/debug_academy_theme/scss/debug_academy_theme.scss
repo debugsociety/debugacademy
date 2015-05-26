@@ -66,3 +66,7 @@
 
 // IE8 Grid Support
 //@import "ie";
+
+.top-bar-section ul li.active > a:hover {
+	color:#000;
+}

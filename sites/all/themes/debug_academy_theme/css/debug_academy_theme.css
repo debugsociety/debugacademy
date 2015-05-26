@@ -7344,3 +7344,8 @@ a.th {
   margin: 0;
   display: inline-block;
 }
+
+/* line 70, ../scss/debug_academy_theme.scss */
+.top-bar-section ul li.active > a:hover {
+  color: #000;
+}
