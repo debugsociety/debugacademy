@@ -76,7 +76,7 @@
 
 /* Header */
 .front {
-	main.row {
+	main.row, section.row {
 	  max-width: none;
 	}
 	.column, .columns {
@@ -102,9 +102,9 @@
 	#mini-panel-main_section .panel-col{
 	width:50%;
 	}
+					
+	#mini-panel-main_section h1, #mini-panel-main_section h2{
 
-	#mini-panel-main_section h1{
-	font-size: 4rem;
 	color: #FFFFFF;
 	}
 
@@ -142,7 +142,6 @@
 	/*Students and Employers blocks*/
 	.panel-col-bottom .pane-block {
 	text-align: left;
-	font-size: 0.9rem;
 	margin: 1rem;
 	margin-bottom:0;
 	background: rgba(128, 128, 128, .5);
@@ -154,7 +153,6 @@
 
 	.main-pane{
 	text-align: left;
-	font-size: 0.9rem;
 	margin: 1rem;
 	margin-bottom:0;
 	background: rgba(128, 128, 128, .5);
@@ -162,6 +160,7 @@
 	display: inline-block;
 	position:relative;
 	bottom: -45px;
+	width: 355px;
 	}
 
 	.main-pane img{
@@ -230,10 +229,6 @@
 
 	#tabs-logistics_section-middle  a{
 	text-decoration:none;
-	}
-
-	#tabs-logistics_section-middle  p{
-	font-size: 0.8rem;
 	}
 
 	#tabs-logistics_section-middle .item-list a{
@@ -352,13 +347,11 @@
 	*/
 	#how-different{
 	width: 54rem;
-	font-size:0.9rem;
 	margin: 3rem auto;
 	}
 
 	#how-different .pane-title{
 	margin-bottom: 0;
-	font-size: 1.3rem;
 	}
 
 	#how-different .pane-content ul{
@@ -408,5 +401,7 @@
 	#tabs-logistics_section-middle .ui-tabs-panel{width:auto; display:block !important;}
 	#how-different{width:auto;}
 	#tabs-logistics_section-middle .item-list{display:none;}
+	.main-pane {	bottom:80px; }
+
 	}
 }
