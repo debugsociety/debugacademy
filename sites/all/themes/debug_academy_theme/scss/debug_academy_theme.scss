@@ -399,7 +399,10 @@
 	#tabs-logistics_section-middle .ui-tabs-panel{width:auto; display:block !important;}
 	#how-different{width:auto;}
 	#tabs-logistics_section-middle .item-list{display:none;}
-	.main-pane {	bottom:25px; }
+	.main-pane {
+	  bottom:25px;
+	  margin: 0 auto;
+	  max-width: 100%; }
 
 	}
 }

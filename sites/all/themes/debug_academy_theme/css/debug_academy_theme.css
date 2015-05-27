@@ -7692,5 +7692,7 @@ a.th {
   /* line 402, ../scss/debug_academy_theme.scss */
   .front .main-pane {
     bottom: 25px;
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
