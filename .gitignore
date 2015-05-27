@@ -1,11 +1,10 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
-sites/sites.php
-sites/*.local
-sites/*.local*
-sites/default/files/*
-*.DS_store
 
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Ignore acquia dev desktop files
+sites/*.local
+sites/sites.php
