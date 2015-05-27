@@ -7435,12 +7435,8 @@ a.th {
 .front #mini-panel-main_section h1, .front #mini-panel-main_section h2 {
   color: #FFFFFF;
 }
-/* line 111, ../scss/debug_academy_theme.scss */
-.front #mini-panel-main_section .panel-col-last {
-  height: 22rem;
-}
 @media all and (min-width: 1329px) {
-  /* line 117, ../scss/debug_academy_theme.scss */
+  /* line 112, ../scss/debug_academy_theme.scss */
   .front #hire-bubble {
     margin: 0;
     text-align: left;
@@ -7455,16 +7451,20 @@ a.th {
   }
 }
 @media all and (max-width: 1329px) {
-  /* line 133, ../scss/debug_academy_theme.scss */
+  /* line 128, ../scss/debug_academy_theme.scss */
   .front #hire-bubble {
     display: none;
   }
+  /* line 131, ../scss/debug_academy_theme.scss */
+  .front #mini-panel-main_section .panel-col {
+    width: 100%;
+  }
 }
-/* line 138, ../scss/debug_academy_theme.scss */
+/* line 136, ../scss/debug_academy_theme.scss */
 .front #second-sidebar {
   padding: 0;
 }
-/* line 143, ../scss/debug_academy_theme.scss */
+/* line 141, ../scss/debug_academy_theme.scss */
 .front .panel-col-bottom .pane-block {
   text-align: left;
   margin: 1rem;
@@ -7475,7 +7475,7 @@ a.th {
   position: relative;
   bottom: -2.8rem;
 }
-/* line 154, ../scss/debug_academy_theme.scss */
+/* line 152, ../scss/debug_academy_theme.scss */
 .front .main-pane {
   text-align: left;
   margin: 1rem;
@@ -7487,66 +7487,66 @@ a.th {
   bottom: -45px;
   width: 355px;
 }
-/* line 166, ../scss/debug_academy_theme.scss */
+/* line 164, ../scss/debug_academy_theme.scss */
 .front .main-pane img {
   display: block;
 }
-/* line 170, ../scss/debug_academy_theme.scss */
+/* line 168, ../scss/debug_academy_theme.scss */
 .front .left-padding {
   padding-left: 1rem;
 }
-/* line 174, ../scss/debug_academy_theme.scss */
+/* line 172, ../scss/debug_academy_theme.scss */
 .front .right-padding {
   padding-right: 1rem;
 }
-/* line 178, ../scss/debug_academy_theme.scss */
+/* line 176, ../scss/debug_academy_theme.scss */
 .front .panel-col-bottom .pane-title {
   border-bottom: 0.15rem solid gray;
   width: 4.8rem;
   margin-left: 1rem;
 }
-/* line 184, ../scss/debug_academy_theme.scss */
+/* line 182, ../scss/debug_academy_theme.scss */
 .front .panel-separator {
   display: none;
 }
-/* line 188, ../scss/debug_academy_theme.scss */
+/* line 186, ../scss/debug_academy_theme.scss */
 .front #mini-panel-main_section {
   background-image: url("/sites/all/themes/debuga_theme2/images/main-image.png");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 3.4rem;
 }
-/* line 205, ../scss/debug_academy_theme.scss */
+/* line 203, ../scss/debug_academy_theme.scss */
 .front #mini-panel-logistics_section {
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
-/* line 210, ../scss/debug_academy_theme.scss */
+/* line 208, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle {
   border: none;
   text-align: center;
 }
-/* line 214, ../scss/debug_academy_theme.scss */
+/* line 212, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .item-list {
   display: inline-block;
 }
-/* line 218, ../scss/debug_academy_theme.scss */
+/* line 216, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-panel {
   text-align: left;
   margin: 0 auto;
   border: 0.2rem solid #E5E5E5;
   width: 52rem;
 }
-/* line 225, ../scss/debug_academy_theme.scss */
+/* line 223, ../scss/debug_academy_theme.scss */
 .front .tab-header {
   font-size: 1.4rem;
   margin-top: 0;
 }
-/* line 230, ../scss/debug_academy_theme.scss */
+/* line 228, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle a {
   text-decoration: none;
 }
-/* line 234, ../scss/debug_academy_theme.scss */
+/* line 232, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .item-list a {
   padding: 0;
   margin: 0;
@@ -7554,64 +7554,64 @@ a.th {
   width: 13.4375rem;
   height: 10rem;
 }
-/* line 242, ../scss/debug_academy_theme.scss */
+/* line 240, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle li {
   margin: 0.25rem;
 }
-/* line 247, ../scss/debug_academy_theme.scss */
+/* line 245, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav .first a {
   background-image: url("/sites/all/themes/debuga_theme2/images/teaching-next-inactive.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 254, ../scss/debug_academy_theme.scss */
+/* line 252, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li.first.ui-state-active a {
   background-image: url("/sites/all/themes/debuga_theme2/images/teaching-next-active.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 261, ../scss/debug_academy_theme.scss */
+/* line 259, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2) a {
   background-image: url("/sites/all/themes/debuga_theme2/images/class-over-inactive.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 268, ../scss/debug_academy_theme.scss */
+/* line 266, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li:nth-child(2).ui-state-active a {
   background-image: url("/sites/all/themes/debuga_theme2/images/class-over-active.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 275, ../scss/debug_academy_theme.scss */
+/* line 273, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3) a {
   background-image: url("/sites/all/themes/debuga_theme2/images/location-tab-inactive.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 282, ../scss/debug_academy_theme.scss */
+/* line 280, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li:nth-child(3).ui-state-active a {
   background-image: url("/sites/all/themes/debuga_theme2/images/location-tab-active.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 289, ../scss/debug_academy_theme.scss */
+/* line 287, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav .last a {
   background-image: url("/sites/all/themes/debuga_theme2/images/payment-tab-inactive.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 296, ../scss/debug_academy_theme.scss */
+/* line 294, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle .ui-tabs-nav li.last.ui-state-active a {
   background-image: url("/sites/all/themes/debuga_theme2/images/payment-tab-active.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 302, ../scss/debug_academy_theme.scss */
+/* line 300, ../scss/debug_academy_theme.scss */
 .front #tabs-logistics_section-middle ul, .front #tabs-logistics_section-middle li {
   background: none;
   border: none;
 }
-/* line 316, ../scss/debug_academy_theme.scss */
+/* line 314, ../scss/debug_academy_theme.scss */
 .front #join-movement {
   background-image: url("/sites/all/themes/debuga_theme2/images/movement-bg.png");
   background-size: cover;
@@ -7619,36 +7619,36 @@ a.th {
   margin-bottom: 3rem;
   padding-bottom: 3rem;
 }
-/* line 324, ../scss/debug_academy_theme.scss */
+/* line 322, ../scss/debug_academy_theme.scss */
 .front #join-movement .pane-title {
   padding-top: 3rem;
   margin: 0;
   font-size: 3rem;
   color: #FFFFFF;
 }
-/* line 331, ../scss/debug_academy_theme.scss */
+/* line 329, ../scss/debug_academy_theme.scss */
 .front #apply-today, .front #teaching-next, .front #class-over, .front #next-location, .front #payment-info,
 .front #apply-now, .front #hire-class {
   font-size: 0;
   color: transparent;
   line-height: 0;
 }
-/* line 348, ../scss/debug_academy_theme.scss */
+/* line 346, ../scss/debug_academy_theme.scss */
 .front #how-different {
   width: 54rem;
   margin: 3rem auto;
 }
-/* line 353, ../scss/debug_academy_theme.scss */
+/* line 351, ../scss/debug_academy_theme.scss */
 .front #how-different .pane-title {
   margin-bottom: 0;
 }
-/* line 357, ../scss/debug_academy_theme.scss */
+/* line 355, ../scss/debug_academy_theme.scss */
 .front #how-different .pane-content ul {
   margin: 0;
   padding: 0;
   display: inline-block;
 }
-/* line 363, ../scss/debug_academy_theme.scss */
+/* line 361, ../scss/debug_academy_theme.scss */
 .front #how-different .pane-content li {
   list-style: none;
   background: url("/sites/all/themes/debuga_theme2/images/orange-check.png") no-repeat left top;
@@ -7657,11 +7657,11 @@ a.th {
   text-align: left;
   vertical-align: middle;
 }
-/* line 372, ../scss/debug_academy_theme.scss */
+/* line 370, ../scss/debug_academy_theme.scss */
 .front .left {
   text-align: left;
 }
-/* line 385, ../scss/debug_academy_theme.scss */
+/* line 383, ../scss/debug_academy_theme.scss */
 .front #grad-stats {
   background-image: url("/sites/all/themes/debuga_theme2/images/statistics-bg.png");
   background-size: cover;
@@ -7669,28 +7669,28 @@ a.th {
   margin-bottom: 3rem;
   padding-bottom: 3rem;
 }
-/* line 393, ../scss/debug_academy_theme.scss */
+/* line 391, ../scss/debug_academy_theme.scss */
 .front #grad-stats .pane-title {
   padding-top: 3rem;
   margin: 0;
   color: #FFFFFF;
 }
 @media all and (max-width: 920px) {
-  /* line 401, ../scss/debug_academy_theme.scss */
+  /* line 399, ../scss/debug_academy_theme.scss */
   .front #tabs-logistics_section-middle .ui-tabs-panel {
     width: auto;
     display: block !important;
   }
-  /* line 402, ../scss/debug_academy_theme.scss */
+  /* line 400, ../scss/debug_academy_theme.scss */
   .front #how-different {
     width: auto;
   }
-  /* line 403, ../scss/debug_academy_theme.scss */
+  /* line 401, ../scss/debug_academy_theme.scss */
   .front #tabs-logistics_section-middle .item-list {
     display: none;
   }
-  /* line 404, ../scss/debug_academy_theme.scss */
+  /* line 402, ../scss/debug_academy_theme.scss */
   .front .main-pane {
-    bottom: 80px;
+    bottom: 25px;
   }
 }

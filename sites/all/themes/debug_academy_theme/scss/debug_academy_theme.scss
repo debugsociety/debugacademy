@@ -104,12 +104,7 @@
 	}
 					
 	#mini-panel-main_section h1, #mini-panel-main_section h2{
-
 	color: #FFFFFF;
-	}
-
-	#mini-panel-main_section .panel-col-last {
-	height: 22rem;
 	}
 
 	@media all 
@@ -132,6 +127,9 @@
 	and (max-width : 1329px) {
 	#hire-bubble{
 	display:none;
+	}
+	#mini-panel-main_section .panel-col {
+	width:100%;
 	}
 	}
 
@@ -401,7 +399,7 @@
 	#tabs-logistics_section-middle .ui-tabs-panel{width:auto; display:block !important;}
 	#how-different{width:auto;}
 	#tabs-logistics_section-middle .item-list{display:none;}
-	.main-pane {	bottom:80px; }
+	.main-pane {	bottom:25px; }
 
 	}
 }
