@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the drupal_course feature.
+ */
+
+include_once 'drupal_course.features.inc';
