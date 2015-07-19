@@ -1,9 +1,8 @@
-name = Application-form
-description = application form for debugacademy
+name = debugacademy_applicationform
 core = 7.x
 package = Features
-version = 7.x-1.0
-project = application_form
+version = 7.x-5.0
+project = debugacademy_applicationform
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = entityform
